@@ -1,0 +1,37 @@
+using PyPlot
+
+rcParams = PyPlot.PyDict(PyPlot.matplotlib."rcParams")
+rcParams["font.size"] = 15
+rcParams["lines.linewidth"] =  3 
+rcParams["lines.markersize"] =12
+rcParams["font.family"] =  "TeX Gyre Heros"
+rcParams["font.size"] =  30
+rcParams["mathtext.fontset"] =  "cm"
+rcParams["axes.facecolor"] = "None"
+rcParams["axes.linewidth"]= 3
+rcParams["axes.unicode_minus"]= true
+rcParams["xtick.top"]= true
+rcParams["xtick.major.size"]  = 9.388    
+rcParams["xtick.minor.size"] =  5      
+rcParams["xtick.major.width"] =  3     
+rcParams["xtick.minor.width"] =  3     
+rcParams["xtick.major.pad"] = 10
+rcParams["xtick.direction"] = "in"
+rcParams["ytick.right"] = true
+rcParams["ytick.major.size"]  = 9.388    
+rcParams["ytick.minor.size"] =  5      
+rcParams["ytick.major.width"] =  3     
+rcParams["ytick.minor.width"] =  3 
+rcParams["ytick.direction"] = "in"
+rcParams["legend.frameon"]=    true   
+rcParams["legend.framealpha"]=    0      
+rcParams["legend.edgecolor"]=    "black"
+rcParams["legend.fancybox"]=    false 
+rcParams["legend.handletextpad"] = 0.5 
+rcParams["figure.figsize"] = [12.5,8.333]
+rcParams["figure.facecolor"] = "None"
+rcParams["figure.subplot.left"]= 0.1667
+rcParams["figure.subplot.right"]= 0.8280
+rcParams["figure.subplot.bottom"]= 0.1062
+rcParams["figure.subplot.top"]= 0.8938
+rcParams["savefig.format"] = "svg"
